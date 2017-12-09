@@ -1,0 +1,34 @@
+{
+    "name": "longlog/yii2-ext",
+    "description": "Yii2 extension for LongLog application",
+    "keywords": [
+        "Yii2",
+        "LongLog",
+        "Extension"
+    ],
+    "homepage": "https://github.com/demisang/yii2-longlog#readme",
+    "type": "yii2-extension",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Ivan Orlov",
+            "email": "gnasimed@gmail.com",
+            "homepage": "https://orlov.io/",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/demisang/yii2-longlog/issues",
+        "source": "https://github.com/demisang/yii2-longlog"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "longlog/php-sdk": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "longlog\\yii2\\": "src/"
+        }
+    }
+}
